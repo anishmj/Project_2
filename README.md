@@ -1,33 +1,35 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## URL-Based Q&A Answering System
+This project builds an AI-powered research tool that extracts answers from web pages based on user queries. By leveraging LangChain, OpenAI’s LLM, and FAISS, the system efficiently retrieves precise answers from URLs, reducing the need for manual searching.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
-
+Traditional search engines provide a list of links without directly answering user questions. This project enhances information retrieval by:
+Extracting relevant text from given URLs.
+Storing text embeddings in a FAISS vector database.
+Using LangChain’s RetrievalQAWithSourcesChain to fetch relevant answers.
+Providing direct, structured responses instead of just listing search results.
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Uses an advanced NLP model with OpenAI’s GPT for question answering
+Extracts meaningful text from web pages through URL scraping and parsing
+Splits large texts efficiently using RecursiveCharacterTextSplitter
+Converts extracted text into vector representations for quick retrieval with FAISS
+Provides an interactive Streamlit user interface for inputting URLs and queries
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+Operating System: Windows 10 or Ubuntu (64-bit)
+Development Tools: Python 3.8 or later, VSCode
+Key Libraries:
+streamlit for the user interface
+langchain for AI processing
+faiss-cpu for vector search
+openai for language model integration
+unstructured for web scraping
+dotenv for managing environment variables
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![sys_arch](https://github.com/user-attachments/assets/ec32d139-325a-44f3-b223-67541c8654f8)
+
 
 
 ## Output
@@ -35,24 +37,49 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 <!--Embed the Output picture at respective places as shown below as shown below-->
 #### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![op3](https://github.com/user-attachments/assets/2941158a-426e-4186-a3ed-72cfabed18b1)
+
 
 #### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+![op4](https://github.com/user-attachments/assets/a6528f48-4557-4767-b514-ca70b5257b82)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+
+\.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+Provides faster information retrieval by eliminating the need for manual searches
+Delivers contextual answers extracted from relevant sections of web content
+Includes cited sources for improved credibility and verification
 
 This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+S. S. Naaz, Artificial Intelligence in Information Retrieval: AI-based Techniques for Improving Search and Information Retrieval Systems in Both Libraries and Other Knowledge Hubs, Dr. Babasaheb Ambedkar Marathwada University, 2023.
+
+T. Mandl, Artificial Intelligence for Information Retrieval, in Encyclopedia of Artificial Intelligence, J. R. R. Dopico, J. D. de la Calle, and A. P. Sierra, Eds. IGI Global, 2008, pp. 1–10. Available: https://doi.org/10.4018/9781599048499.ch023.
+
+C. Collins, D. Dennehy, K. Conboy, and P. Mikalef, Artificial intelligence in information systems research: A systematic literature review and research agenda, International Journal of Information Management, vol. 60, p. 102383, 2021. Available: https://doi.org/10.1016/j.ijinfomgt.2021.102383.
+
+D. De Jaco and G. Garbolino, An information retrieval system based on artificial intelligence techniques, in Proceedings of the 9th ACM International Conference on Research and Development in Information Retrieval, 1986, pp. 214–217. Available: https://doi.org/10.1145/253168.253215.
+
+H. Zamani, F. Diaz, M. Dehghani, D. Metzler, and M. Bendersky, Retrieval-enhanced machine learning, arXiv preprint, 2022. Available: https://arxiv.org/abs/2205.01230.
+
+W. R. Hersh, Search still matters: Information retrieval in the era of generative AI, arXiv preprint, 2023. Available: https://arxiv.org/abs/2311.18550.
+
+A. Trotman, An artificial intelligence approach to information retrieval, in Proceedings of the ACM SIGIR Conference on Information Retrieval, 2003.
+
+M. Feng, W. Y. Liu, N. F. Xie, and W. Chen, Answer clustering and fusion in a user-interactive QA system, in Proceedings of the 2nd International Conference on Semantics, Knowledge and Grid (SKG 2006), November 1–3, 2006, Guilin, China.
+
+E. M. Voorhees, Overview of the TREC-9 question answering track, in Proceedings of the Twelfth Text REtrieval Conference (TREC 9), 2000, pp. 71–80.
+
+
+
+
+
+
+
+
 
 
 
